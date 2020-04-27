@@ -1,0 +1,149 @@
+div .logosquare {
+	padding: 30px 0;
+	background: #151823;
+	position: sticky;
+	top: 0;
+}
+
+.logosquare .container {
+	position: relative;
+	height: 100%;
+}
+
+div .logosquare .container > * {
+	float: left;
+}
+
+.logosquare .menu .menulist {
+	list-style-type: none;
+	color: white;
+	display: flex;
+	justify-content: center;
+	font-weight: bolder;
+	box-sizing: border-box;
+	height: 100%;
+	padding-top: 20px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	/*align-items: center;*/
+}
+
+.logosquare .menu .menulist > *{
+	padding-right: 40px;
+	padding-left: 40px;
+	padding-bottom: 20px;
+	/*height: 56px;*/
+}
+
+
+.logosquare .menu .menulist .seach{
+	width: 20px;
+	height: 20px;
+	background-image: url('./img/seachicon.png');
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-left: 50px;
+	padding-left: 10px;
+	padding-right:10px;
+
+}
+
+.logosquare .menu .menulist .homelist, .pageslist, .servicelist, .gdprlist {
+	list-style-type: none;
+	padding: 0;
+	margin-top: 20px;
+	font-weight: normal;
+	background-color: white;
+	color: black;
+	border-radius: 10px;
+	display: none;
+	position: absolute;
+}
+
+.logosquare .menu .home:hover {
+	color: #FF8C19;
+}
+
+.logosquare .menu .home:hover .homelist{
+	display: block;
+}
+
+.logosquare .menu .pages:hover {
+	color: #FF8C19;
+}
+
+
+.logosquare .menu .pages:hover .pageslist{
+	display: block;
+}
+
+.logosquare .menu .services:hover {
+	color: #FF8C19;
+}
+
+.logosquare .menu .services:hover .servicelist{
+	display: block;
+}
+
+.logosquare .menu .gdpr:hover {
+	color: #FF8C19;
+}
+
+
+.logosquare .menu .gdpr:hover .gdprlist{
+	display: block;
+}
+
+.logosquare .menu .contacts:hover {
+	color: #FF8C19;
+}
+
+.logosquare .menu .seach:hover {
+	border: red solid 1px;
+}
+
+.logosquare .menu .menulist li ul li{
+	padding: 10px 20px;
+	border-bottom: #ddd solid 1px;
+	border-radius: 10px;
+}
+
+.logosquare .menu .menulist li ul li:hover{
+	color: orange;
+	border-bottom: #FF8C19 solid 1px;
+}
+
+.logosquare:after {
+	content: '';
+	display: block;
+	clear:both;
+}
+
+.logosquare .container:after {
+	content: '';
+	display: block;
+	clear:both;
+}
+
+.logosquare .container .seachicon {
+	height: 30px;
+	width: 30px;
+	margin: 10px 20px;
+}
+
+.logosquare .container .seachicon:hover {
+	border: red solid 1px;
+}
+
+.logosquare .container .seach {
+	margin: 15px 0px;
+	float: right;
+	border: blue solid 2px;
+	border-radius: 5px;
+	background: url('./img/bg-seach.jpg');
+	background-size: cover;
+	background-position: center;
+	font-weight: bold;
+	padding: 5px 8px;
+}
